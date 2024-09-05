@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 body {
-    margin: 0;
+    width: 100%;
+    margin: 0 auto;
     font-family: "Open Sans", sans-serif;
 }
 button {
@@ -13,14 +14,15 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
-    max-width: 1296px;
+    width: 1296px;
     margin: 0 auto;
 }
 .header-main {
     display: flex;
     align-items: center;
     gap: 42px;
-    max-width: 1296px;
+    width: 1296px;
+    
     height: 111px;
 }
 .header-main__wrapper {
@@ -124,8 +126,11 @@ header {
 
 
 /* Start main */
+.main {
+    min-width: 1296px;
+}
 .main-page__wrapper {
-    max-width: 100%;
+    width: 100%;
     background-color: #F3F7F4;
     display: flex;
     justify-content: center;
@@ -221,7 +226,7 @@ header {
 .main-advantages {
     display: flex;
     align-items: center;
-    max-width: 1296px;
+    width: 1296px;
     margin: 0 auto;
 }
 .main-advantages__cards {
